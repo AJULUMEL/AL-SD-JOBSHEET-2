@@ -15,7 +15,7 @@ public class Buku06 {
         if (stok > 0 && jml <= stok) {
             stok -= jml;
         }
-        
+
     }
 
     void restock(int jml) {
@@ -25,8 +25,9 @@ public class Buku06 {
     void gantiHarga(int hrg) {
         harga = hrg;
     }
-    public Buku06(){
 
+    public Buku06() {
+        
     }
 
     public Buku06(String jud, String pg, int hal, int stok, int har) {
